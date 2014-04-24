@@ -34,7 +34,7 @@ public class EventOpener extends DefaultOpener {
 
 	public EventOpener() {
 		env = new Environment();
-		reactor = Reactors.reactor(env);
+		reactor = Reactors.reactor(env, Environment.RING_BUFFER);
 
 		reactor.on(SELECTOR, CONSUMER);
 	}
