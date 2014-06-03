@@ -63,8 +63,8 @@
 
 	<scm>
 		<url>https://github.com/CrispOSS/abs-api-event.git</url>
-		<connection>https://github.com/CrispOSS/abs-api-event.git</connection>
-		<developerConnection>git@github.com:CrispOSS/abs-api-event.git</developerConnection>
+		<connection>scm:git:https://github.com/CrispOSS/abs-api-event.git</connection>
+		<developerConnection>scm:git:git@github.com:CrispOSS/abs-api-event.git</developerConnection>
 	</scm>
 
 </project>
